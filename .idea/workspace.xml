@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c9ecab6-7300-43d0-a5c1-044a7d3d86d9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YIgnwUqi9h1jO6ODSFb1zrTI4y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RunManager" selected="Application.ClassLoaderTest2">
+    <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.classloader.ClassLoaderTest" />
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steer.jvm.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassLoaderTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.classloader.ClassLoaderTest2" />
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steer.jvm.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeadThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.loading.DeadThreadTest" />
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steer.jvm.loading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.Main" />
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steer.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JvmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jvm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.steer.www.jvm.JvmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClassLoaderTest2" />
+        <item itemvalue="Application.DeadThreadTest" />
+        <item itemvalue="Application.ClassLoaderTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c9ecab6-7300-43d0-a5c1-044a7d3d86d9" name="Default Changelist" comment="" />
+      <created>1582635692485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582635692485</updated>
+      <workItem from="1582635697706" duration="2315000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1191" height="245" key="GridCell.Tab.0.bottom" timestamp="1582638197795">
+      <screen x="0" y="23" width="1231" height="777" />
+    </state>
+    <state width="1191" height="245" key="GridCell.Tab.0.bottom/0.23.1231.777@0.23.1231.777" timestamp="1582638197795" />
+    <state width="1191" height="245" key="GridCell.Tab.0.center" timestamp="1582638197792">
+      <screen x="0" y="23" width="1231" height="777" />
+    </state>
+    <state width="1191" height="245" key="GridCell.Tab.0.center/0.23.1231.777@0.23.1231.777" timestamp="1582638197792" />
+    <state width="1191" height="245" key="GridCell.Tab.0.left" timestamp="1582638197790">
+      <screen x="0" y="23" width="1231" height="777" />
+    </state>
+    <state width="1191" height="245" key="GridCell.Tab.0.left/0.23.1231.777@0.23.1231.777" timestamp="1582638197790" />
+    <state width="1191" height="245" key="GridCell.Tab.0.right" timestamp="1582638197794">
+      <screen x="0" y="23" width="1231" height="777" />
+    </state>
+    <state width="1191" height="245" key="GridCell.Tab.0.right/0.23.1231.777@0.23.1231.777" timestamp="1582638197794" />
+    <state width="1191" height="245" key="GridCell.Tab.1.bottom" timestamp="1582638197525">
+      <screen x="0" y="23" width="1231" height="777" />
+    </state>
+    <state width="1191" height="245" key="GridCell.Tab.1.bottom/0.23.1231.777@0.23.1231.777" timestamp="1582638197525" />
+    <state width="1191" height="245" key="GridCell.Tab.1.center" timestamp="1582638197524">
+      <screen x="0" y="23" width="1231" height="777" />
+    </state>
+    <state width="1191" height="245" key="GridCell.Tab.1.center/0.23.1231.777@0.23.1231.777" timestamp="1582638197524" />
+    <state width="1191" height="245" key="GridCell.Tab.1.left" timestamp="1582638197523">
+      <screen x="0" y="23" width="1231" height="777" />
+    </state>
+    <state width="1191" height="245" key="GridCell.Tab.1.left/0.23.1231.777@0.23.1231.777" timestamp="1582638197523" />
+    <state width="1191" height="245" key="GridCell.Tab.1.right" timestamp="1582638197525">
+      <screen x="0" y="23" width="1231" height="777" />
+    </state>
+    <state width="1191" height="245" key="GridCell.Tab.1.right/0.23.1231.777@0.23.1231.777" timestamp="1582638197525" />
+    <state x="104" y="23" key="SettingsEditor" timestamp="1582636079094">
+      <screen x="0" y="23" width="1231" height="777" />
+    </state>
+    <state x="104" y="23" key="SettingsEditor/0.23.1231.777@0.23.1231.777" timestamp="1582636079094" />
+    <state x="10" y="34" key="new project wizard" timestamp="1582635818061">
+      <screen x="0" y="23" width="1231" height="777" />
+    </state>
+    <state x="10" y="34" key="new project wizard/0.23.1231.777@0.23.1231.777" timestamp="1582635818061" />
+    <state x="281" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1582636676648">
+      <screen x="0" y="23" width="1231" height="777" />
+    </state>
+    <state x="281" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1231.777@0.23.1231.777" timestamp="1582636676648" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_jvm$ClassLoaderTest.ic" NAME="ClassLoaderTest Coverage Results" MODIFIED="1582636409041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.steer.jvm.classloader.*</FILTER>
+    </SUITE>
+  </component>
+</project>
