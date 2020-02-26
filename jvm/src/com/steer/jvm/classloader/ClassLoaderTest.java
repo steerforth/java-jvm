@@ -28,6 +28,13 @@ public class ClassLoaderTest {
         System.out.println(classLoader);
 
         /**
+         * 当前线程加载器
+         * AppClassLoader
+         */
+        ClassLoader l = Thread.currentThread().getContextClassLoader();
+        System.out.println(l);
+
+        /**
          * 系统核心类库都是BootstrapClassLoader
          */
         ClassLoader loader = String.class.getClassLoader();
