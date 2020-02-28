@@ -60,20 +60,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
-  <component name="RunManager" selected="Application.CustomString">
-    <configuration name="ClassLoaderTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.classloader.ClassLoaderTest2" />
-      <module name="jvm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.steer.jvm.classloader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StackFrameTest">
     <configuration name="CustomString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java.lang.CustomString" />
       <module name="jvm" />
@@ -87,12 +74,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.loading.DeadThreadTest" />
+    <configuration name="StackFrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.stack.StackFrameTest" />
       <module name="jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.steer.jvm.loading.*" />
+          <option name="PATTERN" value="com.steer.jvm.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackOverflowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.stack.StackOverflowTest" />
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steer.jvm.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackFrameTest" />
+        <item itemvalue="Application.StackOverflowTest" />
         <item itemvalue="Application.CustomString" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ClassLoaderTest2" />
-        <item itemvalue="Application.DeadThreadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582635692485</updated>
-      <workItem from="1582635697706" duration="4827000" />
+      <workItem from="1582635697706" duration="7090000" />
     </task>
     <servers />
   </component>
@@ -165,38 +165,38 @@
       <screen x="0" y="23" width="1231" height="777" />
     </state>
     <state x="429" y="128" key="#com.intellij.ide.util.MemberChooser/0.23.1231.777@0.23.1231.777" timestamp="1582640865964" />
-    <state width="1191" height="245" key="GridCell.Tab.0.bottom" timestamp="1582725807568">
+    <state width="1191" height="245" key="GridCell.Tab.0.bottom" timestamp="1582897824362">
       <screen x="0" y="23" width="1231" height="777" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.0.bottom/0.23.1231.777@0.23.1231.777" timestamp="1582725807568" />
-    <state width="1191" height="245" key="GridCell.Tab.0.center" timestamp="1582725807566">
+    <state width="1191" height="245" key="GridCell.Tab.0.bottom/0.23.1231.777@0.23.1231.777" timestamp="1582897824362" />
+    <state width="1191" height="245" key="GridCell.Tab.0.center" timestamp="1582897824361">
       <screen x="0" y="23" width="1231" height="777" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.0.center/0.23.1231.777@0.23.1231.777" timestamp="1582725807566" />
-    <state width="1191" height="245" key="GridCell.Tab.0.left" timestamp="1582725807566">
+    <state width="1191" height="245" key="GridCell.Tab.0.center/0.23.1231.777@0.23.1231.777" timestamp="1582897824361" />
+    <state width="1191" height="245" key="GridCell.Tab.0.left" timestamp="1582897824361">
       <screen x="0" y="23" width="1231" height="777" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.0.left/0.23.1231.777@0.23.1231.777" timestamp="1582725807566" />
-    <state width="1191" height="245" key="GridCell.Tab.0.right" timestamp="1582725807567">
+    <state width="1191" height="245" key="GridCell.Tab.0.left/0.23.1231.777@0.23.1231.777" timestamp="1582897824361" />
+    <state width="1191" height="245" key="GridCell.Tab.0.right" timestamp="1582897824362">
       <screen x="0" y="23" width="1231" height="777" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.0.right/0.23.1231.777@0.23.1231.777" timestamp="1582725807567" />
-    <state width="1191" height="245" key="GridCell.Tab.1.bottom" timestamp="1582725807107">
+    <state width="1191" height="245" key="GridCell.Tab.0.right/0.23.1231.777@0.23.1231.777" timestamp="1582897824362" />
+    <state width="1191" height="245" key="GridCell.Tab.1.bottom" timestamp="1582897824363">
       <screen x="0" y="23" width="1231" height="777" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.1.bottom/0.23.1231.777@0.23.1231.777" timestamp="1582725807107" />
-    <state width="1191" height="245" key="GridCell.Tab.1.center" timestamp="1582725807062">
+    <state width="1191" height="245" key="GridCell.Tab.1.bottom/0.23.1231.777@0.23.1231.777" timestamp="1582897824363" />
+    <state width="1191" height="245" key="GridCell.Tab.1.center" timestamp="1582897824362">
       <screen x="0" y="23" width="1231" height="777" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.1.center/0.23.1231.777@0.23.1231.777" timestamp="1582725807062" />
-    <state width="1191" height="245" key="GridCell.Tab.1.left" timestamp="1582725807062">
+    <state width="1191" height="245" key="GridCell.Tab.1.center/0.23.1231.777@0.23.1231.777" timestamp="1582897824362" />
+    <state width="1191" height="245" key="GridCell.Tab.1.left" timestamp="1582897824362">
       <screen x="0" y="23" width="1231" height="777" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.1.left/0.23.1231.777@0.23.1231.777" timestamp="1582725807062" />
-    <state width="1191" height="245" key="GridCell.Tab.1.right" timestamp="1582725807063">
+    <state width="1191" height="245" key="GridCell.Tab.1.left/0.23.1231.777@0.23.1231.777" timestamp="1582897824362" />
+    <state width="1191" height="245" key="GridCell.Tab.1.right" timestamp="1582897824363">
       <screen x="0" y="23" width="1231" height="777" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.1.right/0.23.1231.777@0.23.1231.777" timestamp="1582725807063" />
+    <state width="1191" height="245" key="GridCell.Tab.1.right/0.23.1231.777@0.23.1231.777" timestamp="1582897824363" />
     <state x="104" y="23" key="SettingsEditor" timestamp="1582636079094">
       <screen x="0" y="23" width="1231" height="777" />
     </state>
