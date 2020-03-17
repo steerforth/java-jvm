@@ -13,6 +13,8 @@ public class OperandStackTest {
          * 1.bipush 10; 将10放入到操作数栈中    PC寄存器更改值为2
          * 2.istore_1; 将10取出操作数栈，放入局部变量表LocalVariableTable index为1的位置
          * index为0默认放的是this变量
+         * 3.iconst_4:把int常量放入操作数栈中
+         * 4.istore_2：将4取出操作数栈，放入局部变量表LocalVariableTable index为1的位置
          */
         byte a = 10;
         int b = 4;
