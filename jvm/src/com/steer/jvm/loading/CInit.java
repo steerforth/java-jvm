@@ -11,7 +11,9 @@ public class CInit {
     int b = 4;
 
     static {
+        System.out.println("a的值pre:"+a);
         a = 9;
+        System.out.println("a的值after:"+a);
     }
 
     public static void main(String[] args) {
