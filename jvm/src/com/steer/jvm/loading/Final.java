@@ -2,6 +2,9 @@ package com.steer.jvm.loading;
 
 import java.util.Random;
 
+/**
+ * final修饰的变量
+ */
 public class Final {
     /**
      * final修饰的常量，编译期就可以确定，类不需要被加载

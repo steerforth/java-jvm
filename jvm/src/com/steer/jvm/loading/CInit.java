@@ -6,6 +6,9 @@ package com.steer.jvm.loading;
  * loading-linking-initialization
  */
 public class CInit {
+    /**
+     * 类变量被分配在方法区
+     */
     static int a = 6;
 
     int b = 4;

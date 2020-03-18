@@ -1,5 +1,10 @@
 package com.steer.jvm.stack;
 
+/**
+ * 栈帧
+ * 方法开始入栈
+ * 方法结束出栈
+ */
 public class StackFrameTest {
     public static void main(String[] args) {
         methodA();
