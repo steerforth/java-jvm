@@ -1,6 +1,5 @@
 package com.steer.jvm.gc;
 
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class GcAnalyzeTest {
@@ -11,6 +10,7 @@ public class GcAnalyzeTest {
     private static final int _8M = 8*1024*1024;
 
     /**
+     * -XX:+UseSerialGC 设置串行垃圾回收器，防止survivor区动态改变，方便观察现象
      * -Xms20m -Xmx20m -Xmn10m -XX:+UseSerialGC -XX:+PrintGCDetails -verbose:gc
      * 串行回收器：新生代使用复制算法，老年代使用标记-整理算法
      * 年轻代设置10M
