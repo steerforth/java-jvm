@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c9ecab6-7300-43d0-a5c1-044a7d3d86d9" name="Default Changelist" comment="" />
+    <list default="true" id="75e09662-ee8a-44b5-a508-b03d879d9ec0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -20,53 +38,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
-        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1YIgnwUqi9h1jO6ODSFb1zrTI4y" />
+  <component name="ProjectId" id="1Z3jkxYGYUZ2qywP86wCOIVEihe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
-  <component name="RunManager" selected="Application.StackFrameTest">
-    <configuration name="CustomString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.lang.CustomString" />
-      <module name="jvm" />
+  <component name="RunManager" selected="Application.StringTableTest">
+    <configuration name="FinalReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.reference.FinalReferenceTest" />
+      <module name="java-jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.lang.*" />
+          <option name="PATTERN" value="com.steer.jvm.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +64,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackFrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.stack.StackFrameTest" />
-      <module name="jvm" />
+    <configuration name="GcAnalyzeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.gc.GcAnalyzeTest" />
+      <module name="java-jvm" />
+      <option name="VM_PARAMETERS" value="-Xms20M -Xmx20M -Xmn10M -XX:+UseSerialGC -XX:+PrintGCDetails -verbose:gc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.steer.jvm.stack.*" />
+          <option name="PATTERN" value="com.steer.jvm.gc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOverflowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.stack.StackOverflowTest" />
-      <module name="jvm" />
+    <configuration name="PhantomReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.reference.PhantomReferenceTest" />
+      <module name="java-jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.steer.jvm.stack.*" />
+          <option name="PATTERN" value="com.steer.jvm.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.delegation.Test" />
-      <module name="jvm" />
+    <configuration name="SoftReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.reference.SoftReferenceTest" />
+      <module name="java-jvm" />
+      <option name="VM_PARAMETERS" value="-Xmx20m -XX:+PrintGCDetails -verbose:gc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.steer.jvm.delegation.*" />
+          <option name="PATTERN" value="com.steer.jvm.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.lang.Test" />
-      <module name="jvm" />
+    <configuration name="StringTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.stringtable.StringTableTest" />
+      <module name="java-jvm" />
+      <option name="VM_PARAMETERS" value="-Xmx20m  -XX:-UseGCOverheadLimit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.lang.*" />
+          <option name="PATTERN" value="com.steer.jvm.stringtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,20 +119,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JvmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="jvm" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.steer.www.jvm.JvmApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.SoftReferenceTest" />
+      <item itemvalue="Application.PhantomReferenceTest" />
+      <item itemvalue="Application.FinalReferenceTest" />
+      <item itemvalue="Application.GcAnalyzeTest" />
+      <item itemvalue="Application.StringTableTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackFrameTest" />
-        <item itemvalue="Application.StackOverflowTest" />
-        <item itemvalue="Application.CustomString" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StringTableTest" />
+        <item itemvalue="Application.GcAnalyzeTest" />
+        <item itemvalue="Application.SoftReferenceTest" />
+        <item itemvalue="Application.FinalReferenceTest" />
+        <item itemvalue="Application.PhantomReferenceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -148,12 +141,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0c9ecab6-7300-43d0-a5c1-044a7d3d86d9" name="Default Changelist" comment="" />
-      <created>1582635692485</created>
+      <changelist id="75e09662-ee8a-44b5-a508-b03d879d9ec0" name="Default Changelist" comment="" />
+      <created>1584074818072</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582635692485</updated>
-      <workItem from="1582635697706" duration="7090000" />
+      <updated>1584074818072</updated>
+      <workItem from="1584074822440" duration="7960000" />
+      <workItem from="1584428210940" duration="34076000" />
+      <workItem from="1584673396667" duration="49000" />
     </task>
     <servers />
   </component>
@@ -161,58 +156,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="429" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1582640865964">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state x="355" y="349" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584607134372">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="429" y="128" key="#com.intellij.ide.util.MemberChooser/0.23.1231.777@0.23.1231.777" timestamp="1582640865964" />
-    <state width="1191" height="245" key="GridCell.Tab.0.bottom" timestamp="1582897824362">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state x="355" y="349" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584607134372" />
+    <state width="1877" height="345" key="GridCell.Tab.0.bottom" timestamp="1584607198046">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.0.bottom/0.23.1231.777@0.23.1231.777" timestamp="1582897824362" />
-    <state width="1191" height="245" key="GridCell.Tab.0.center" timestamp="1582897824361">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1877" height="345" key="GridCell.Tab.0.center" timestamp="1584607198046">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.0.center/0.23.1231.777@0.23.1231.777" timestamp="1582897824361" />
-    <state width="1191" height="245" key="GridCell.Tab.0.left" timestamp="1582897824361">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1877" height="345" key="GridCell.Tab.0.left" timestamp="1584607198045">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.0.left/0.23.1231.777@0.23.1231.777" timestamp="1582897824361" />
-    <state width="1191" height="245" key="GridCell.Tab.0.right" timestamp="1582897824362">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198045" />
+    <state width="1877" height="345" key="GridCell.Tab.0.right" timestamp="1584607198046">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.0.right/0.23.1231.777@0.23.1231.777" timestamp="1582897824362" />
-    <state width="1191" height="245" key="GridCell.Tab.1.bottom" timestamp="1582897824363">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1877" height="345" key="GridCell.Tab.1.bottom" timestamp="1584607198046">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.1.bottom/0.23.1231.777@0.23.1231.777" timestamp="1582897824363" />
-    <state width="1191" height="245" key="GridCell.Tab.1.center" timestamp="1582897824362">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1877" height="345" key="GridCell.Tab.1.center" timestamp="1584607198046">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.1.center/0.23.1231.777@0.23.1231.777" timestamp="1582897824362" />
-    <state width="1191" height="245" key="GridCell.Tab.1.left" timestamp="1582897824362">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="345" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1877" height="345" key="GridCell.Tab.1.left" timestamp="1584607198046">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.1.left/0.23.1231.777@0.23.1231.777" timestamp="1582897824362" />
-    <state width="1191" height="245" key="GridCell.Tab.1.right" timestamp="1582897824363">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="345" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1877" height="345" key="GridCell.Tab.1.right" timestamp="1584607198046">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1191" height="245" key="GridCell.Tab.1.right/0.23.1231.777@0.23.1231.777" timestamp="1582897824363" />
-    <state x="104" y="23" key="SettingsEditor" timestamp="1582636079094">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="345" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584673396729">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="104" y="23" key="SettingsEditor/0.23.1231.777@0.23.1231.777" timestamp="1582636079094" />
-    <state x="10" y="34" key="new project wizard" timestamp="1582635818061">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584673396729" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584589248946">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="10" y="34" key="new project wizard/0.23.1231.777@0.23.1231.777" timestamp="1582635818061" />
-    <state x="281" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1582636676648">
-      <screen x="0" y="23" width="1231" height="777" />
-    </state>
-    <state x="281" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1231.777@0.23.1231.777" timestamp="1582636676648" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/java_jvm$ClassLoaderTest.ic" NAME="ClassLoaderTest Coverage Results" MODIFIED="1582636409041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.steer.jvm.classloader.*</FILTER>
-    </SUITE>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584589248946" />
   </component>
 </project>
