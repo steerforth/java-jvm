@@ -45,6 +45,11 @@ public class OperandStackTest {
         int j = 10;
     }
 
+    /**
+     * iinc指令，直接在局部变量slot上进行自增运算操作，不是在操作数栈上执行的
+     * i++,先执行iload,再执行iincg
+     * ++i,先执行iinc,再执行iload
+     */
     public void a(){
         //1/
         int i1 = 10;
