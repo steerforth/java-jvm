@@ -4,6 +4,9 @@ import java.io.FileNotFoundException;
 
 /**
  * 自定义类加载器
+ * 1.继承ClassLoader重写findClass方法
+ * 2.注意不能重写loadClass，不然不会走双亲委派机制
+ *
  */
 public class CustomClassLoader extends ClassLoader {
     @Override
