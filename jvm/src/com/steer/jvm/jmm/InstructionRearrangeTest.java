@@ -3,6 +3,9 @@ package com.steer.jvm.jmm;
 /**
  * JVM多线程优化之:
  * 指令重排序
+ *
+ * 解决:volatile修饰，防止指令重排
+ * 懒加载double-checked locking模式
  */
 public class InstructionRearrangeTest {
     private static int x = 0,y =0;
