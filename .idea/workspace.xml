@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75e09662-ee8a-44b5-a508-b03d879d9ec0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/com/steer/jvm/classloader/ClassLoaderTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/com/steer/jvm/classloader/ClassLoaderTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/com/steer/jvm/jmm/VisibleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/com/steer/jvm/jmm/VisibleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/com/steer/jvm/stringtable/StringTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/com/steer/jvm/stringtable/StringTableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +49,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.StringTableTest">
-    <configuration name="FinalReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.reference.FinalReferenceTest" />
+  <component name="RunManager" selected="Application.CacheLineTest2">
+    <configuration name="CacheLinePaddingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.jmm.CacheLinePaddingTest" />
       <module name="java-jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.steer.jvm.reference.*" />
+          <option name="PATTERN" value="com.steer.jvm.jmm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,13 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GcAnalyzeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.gc.GcAnalyzeTest" />
+    <configuration name="CacheLineTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.jmm.CacheLineTest" />
       <module name="java-jvm" />
-      <option name="VM_PARAMETERS" value="-Xms20M -Xmx20M -Xmn10M -XX:+UseSerialGC -XX:+PrintGCDetails -verbose:gc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.steer.jvm.gc.*" />
+          <option name="PATTERN" value="com.steer.jvm.jmm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,26 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhantomReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.reference.PhantomReferenceTest" />
+    <configuration name="CacheLineTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.jmm.CacheLineTest2" />
       <module name="java-jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.steer.jvm.reference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoftReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.reference.SoftReferenceTest" />
-      <module name="java-jvm" />
-      <option name="VM_PARAMETERS" value="-Xmx20m -XX:+PrintGCDetails -verbose:gc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.steer.jvm.reference.*" />
+          <option name="PATTERN" value="com.steer.jvm.jmm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,20 +103,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisibleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.jmm.VisibleTest" />
+      <module name="java-jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steer.jvm.jmm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.SoftReferenceTest" />
-      <item itemvalue="Application.PhantomReferenceTest" />
-      <item itemvalue="Application.FinalReferenceTest" />
-      <item itemvalue="Application.GcAnalyzeTest" />
       <item itemvalue="Application.StringTableTest" />
+      <item itemvalue="Application.VisibleTest" />
+      <item itemvalue="Application.CacheLineTest" />
+      <item itemvalue="Application.CacheLinePaddingTest" />
+      <item itemvalue="Application.CacheLineTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CacheLineTest2" />
+        <item itemvalue="Application.CacheLinePaddingTest" />
+        <item itemvalue="Application.CacheLineTest" />
+        <item itemvalue="Application.VisibleTest" />
         <item itemvalue="Application.StringTableTest" />
-        <item itemvalue="Application.GcAnalyzeTest" />
-        <item itemvalue="Application.SoftReferenceTest" />
-        <item itemvalue="Application.FinalReferenceTest" />
-        <item itemvalue="Application.PhantomReferenceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +146,7 @@
       <workItem from="1584074822440" duration="7960000" />
       <workItem from="1584428210940" duration="34076000" />
       <workItem from="1584673396667" duration="49000" />
+      <workItem from="1585233660394" duration="3119000" />
     </task>
     <servers />
   </component>
@@ -160,45 +158,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="355" y="349" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584607134372" />
-    <state width="1877" height="345" key="GridCell.Tab.0.bottom" timestamp="1584607198046">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1189" height="208" key="GridCell.Tab.0.bottom" timestamp="1585387655747">
+      <screen x="0" y="23" width="1231" height="777" />
     </state>
     <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
-    <state width="1877" height="345" key="GridCell.Tab.0.center" timestamp="1584607198046">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1189" height="208" key="GridCell.Tab.0.bottom/0.23.1231.777@0.23.1231.777" timestamp="1585387655747" />
+    <state width="1189" height="208" key="GridCell.Tab.0.center" timestamp="1585387655743">
+      <screen x="0" y="23" width="1231" height="777" />
     </state>
     <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
-    <state width="1877" height="345" key="GridCell.Tab.0.left" timestamp="1584607198045">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1189" height="208" key="GridCell.Tab.0.center/0.23.1231.777@0.23.1231.777" timestamp="1585387655743" />
+    <state width="1189" height="208" key="GridCell.Tab.0.left" timestamp="1585387655742">
+      <screen x="0" y="23" width="1231" height="777" />
     </state>
     <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198045" />
-    <state width="1877" height="345" key="GridCell.Tab.0.right" timestamp="1584607198046">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1189" height="208" key="GridCell.Tab.0.left/0.23.1231.777@0.23.1231.777" timestamp="1585387655742" />
+    <state width="1189" height="208" key="GridCell.Tab.0.right" timestamp="1585387655746">
+      <screen x="0" y="23" width="1231" height="777" />
     </state>
     <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
-    <state width="1877" height="345" key="GridCell.Tab.1.bottom" timestamp="1584607198046">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1189" height="208" key="GridCell.Tab.0.right/0.23.1231.777@0.23.1231.777" timestamp="1585387655746" />
+    <state width="1189" height="208" key="GridCell.Tab.1.bottom" timestamp="1585387655399">
+      <screen x="0" y="23" width="1231" height="777" />
     </state>
     <state width="1877" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
-    <state width="1877" height="345" key="GridCell.Tab.1.center" timestamp="1584607198046">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1189" height="208" key="GridCell.Tab.1.bottom/0.23.1231.777@0.23.1231.777" timestamp="1585387655399" />
+    <state width="1189" height="208" key="GridCell.Tab.1.center" timestamp="1585387655396">
+      <screen x="0" y="23" width="1231" height="777" />
     </state>
     <state width="1877" height="345" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
-    <state width="1877" height="345" key="GridCell.Tab.1.left" timestamp="1584607198046">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1189" height="208" key="GridCell.Tab.1.center/0.23.1231.777@0.23.1231.777" timestamp="1585387655396" />
+    <state width="1189" height="208" key="GridCell.Tab.1.left" timestamp="1585387655395">
+      <screen x="0" y="23" width="1231" height="777" />
     </state>
     <state width="1877" height="345" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
-    <state width="1877" height="345" key="GridCell.Tab.1.right" timestamp="1584607198046">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1189" height="208" key="GridCell.Tab.1.left/0.23.1231.777@0.23.1231.777" timestamp="1585387655395" />
+    <state width="1189" height="208" key="GridCell.Tab.1.right" timestamp="1585387655398">
+      <screen x="0" y="23" width="1231" height="777" />
     </state>
     <state width="1877" height="345" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1189" height="208" key="GridCell.Tab.1.right/0.23.1231.777@0.23.1231.777" timestamp="1585387655398" />
     <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584673396729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584673396729" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584589248946">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="399" y="191" width="670" height="507" key="search.everywhere.popup" timestamp="1585387147299">
+      <screen x="0" y="23" width="1231" height="777" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584589248946" />
+    <state x="399" y="191" width="670" height="507" key="search.everywhere.popup/0.23.1231.777@0.23.1231.777" timestamp="1585387147299" />
   </component>
 </project>

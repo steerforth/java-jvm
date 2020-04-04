@@ -13,7 +13,7 @@ public class StringTableTest {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         for (int i = 0; i < 1000000; i++) {
-            list.add(String.valueOf(i).intern());
+//            list.add(String.valueOf(i).intern());
         }
     }
 }
