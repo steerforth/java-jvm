@@ -6,6 +6,7 @@ import java.io.IOException;
  * 可见性测试
  */
 public class VisibleTest {
+//    private static void boolean flag = false;
     private static boolean flag = false;
 
     public static void main(String[] args) {
