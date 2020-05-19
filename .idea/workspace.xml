@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75e09662-ee8a-44b5-a508-b03d879d9ec0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/src/com/steer/jvm/classloader/ClassLoaderTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/com/steer/jvm/classloader/ClassLoaderTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/src/com/steer/jvm/jmm/VisibleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/com/steer/jvm/jmm/VisibleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/src/com/steer/jvm/stringtable/StringTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/com/steer/jvm/stringtable/StringTableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-jvm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-jvm.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +42,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jol-core-0.10.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.CacheLineTest2">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\java-jvm\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LockTest">
     <configuration name="CacheLinePaddingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.steer.jvm.jmm.CacheLinePaddingTest" />
       <module name="java-jvm" />
@@ -89,13 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.stringtable.StringTableTest" />
+    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.objModel.LockTest" />
       <module name="java-jvm" />
-      <option name="VM_PARAMETERS" value="-Xmx20m  -XX:-UseGCOverheadLimit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.steer.jvm.stringtable.*" />
+          <option name="PATTERN" value="com.steer.jvm.objModel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisibleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.jmm.VisibleTest" />
+    <configuration name="ObjModelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.jvm.objModel.ObjModelTest" />
       <module name="java-jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.steer.jvm.jmm.*" />
+          <option name="PATTERN" value="com.steer.jvm.objModel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,19 +127,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringTableTest" />
-      <item itemvalue="Application.VisibleTest" />
       <item itemvalue="Application.CacheLineTest" />
       <item itemvalue="Application.CacheLinePaddingTest" />
       <item itemvalue="Application.CacheLineTest2" />
+      <item itemvalue="Application.ObjModelTest" />
+      <item itemvalue="Application.LockTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LockTest" />
+        <item itemvalue="Application.ObjModelTest" />
         <item itemvalue="Application.CacheLineTest2" />
         <item itemvalue="Application.CacheLinePaddingTest" />
         <item itemvalue="Application.CacheLineTest" />
-        <item itemvalue="Application.VisibleTest" />
-        <item itemvalue="Application.StringTableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -147,65 +157,129 @@
       <workItem from="1584428210940" duration="34076000" />
       <workItem from="1584673396667" duration="49000" />
       <workItem from="1585233660394" duration="3119000" />
+      <workItem from="1589862452124" duration="4869000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="355" y="349" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584607134372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="355" y="349" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584607134372" />
-    <state width="1189" height="208" key="GridCell.Tab.0.bottom" timestamp="1585387655747">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1589864636886">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589864636886" />
+    <state x="634" y="260" key="FileChooserDialogImpl" timestamp="1589864313065">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="634" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589864313065" />
+    <state width="1877" height="464" key="GridCell.Tab.0.bottom" timestamp="1589871846680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="464" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589871846680" />
     <state width="1189" height="208" key="GridCell.Tab.0.bottom/0.23.1231.777@0.23.1231.777" timestamp="1585387655747" />
-    <state width="1189" height="208" key="GridCell.Tab.0.center" timestamp="1585387655743">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="464" key="GridCell.Tab.0.center" timestamp="1589871846679">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1877" height="464" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589871846679" />
     <state width="1189" height="208" key="GridCell.Tab.0.center/0.23.1231.777@0.23.1231.777" timestamp="1585387655743" />
-    <state width="1189" height="208" key="GridCell.Tab.0.left" timestamp="1585387655742">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="464" key="GridCell.Tab.0.left" timestamp="1589871846679">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198045" />
+    <state width="1877" height="464" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589871846679" />
     <state width="1189" height="208" key="GridCell.Tab.0.left/0.23.1231.777@0.23.1231.777" timestamp="1585387655742" />
-    <state width="1189" height="208" key="GridCell.Tab.0.right" timestamp="1585387655746">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="464" key="GridCell.Tab.0.right" timestamp="1589871846680">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1877" height="464" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589871846680" />
     <state width="1189" height="208" key="GridCell.Tab.0.right/0.23.1231.777@0.23.1231.777" timestamp="1585387655746" />
-    <state width="1189" height="208" key="GridCell.Tab.1.bottom" timestamp="1585387655399">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="464" key="GridCell.Tab.1.bottom" timestamp="1589871845308">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1877" height="464" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589871845308" />
     <state width="1189" height="208" key="GridCell.Tab.1.bottom/0.23.1231.777@0.23.1231.777" timestamp="1585387655399" />
-    <state width="1189" height="208" key="GridCell.Tab.1.center" timestamp="1585387655396">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="464" key="GridCell.Tab.1.center" timestamp="1589871845307">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1877" height="464" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589871845307" />
     <state width="1189" height="208" key="GridCell.Tab.1.center/0.23.1231.777@0.23.1231.777" timestamp="1585387655396" />
-    <state width="1189" height="208" key="GridCell.Tab.1.left" timestamp="1585387655395">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="464" key="GridCell.Tab.1.left" timestamp="1589871845307">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1877" height="464" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589871845307" />
     <state width="1189" height="208" key="GridCell.Tab.1.left/0.23.1231.777@0.23.1231.777" timestamp="1585387655395" />
-    <state width="1189" height="208" key="GridCell.Tab.1.right" timestamp="1585387655398">
-      <screen x="0" y="23" width="1231" height="777" />
+    <state width="1877" height="464" key="GridCell.Tab.1.right" timestamp="1589871845308">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584607198046" />
+    <state width="1877" height="464" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589871845308" />
     <state width="1189" height="208" key="GridCell.Tab.1.right/0.23.1231.777@0.23.1231.777" timestamp="1585387655398" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1589864888499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589864888499" />
     <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584673396729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584673396729" />
+    <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589864306070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1589864306070" />
     <state x="399" y="191" width="670" height="507" key="search.everywhere.popup" timestamp="1585387147299">
       <screen x="0" y="23" width="1231" height="777" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584589248946" />
     <state x="399" y="191" width="670" height="507" key="search.everywhere.popup/0.23.1231.777@0.23.1231.777" timestamp="1585387147299" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/com/steer/jvm/objModel/LockTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
